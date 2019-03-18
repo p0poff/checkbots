@@ -1,0 +1,2 @@
+docker build -t checkbot .
+docker run --name checkbot -e TIMEOUT=10 -e SLEEP=60 -d checkbot
